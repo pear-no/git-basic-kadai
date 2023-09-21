@@ -1,0 +1,46 @@
+
+nagoya10@DESKTOP-2PLH85A MINGW64 ~/Desktop/kadai_Git
+$ cd C:/Users/nagoya10/Desktop/kadai_Git/git_challenge
+
+nagoya10@DESKTOP-2PLH85A MINGW64 ~/Desktop/kadai_Git/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/nagoya10/Desktop/kadai_Git/git_challenge/.git/
+
+nagoya10@DESKTOP-2PLH85A MINGW64 ~/Desktop/kadai_Git/git_challenge (main)
+$ git add hello_world.txt
+
+nagoya10@DESKTOP-2PLH85A MINGW64 ~/Desktop/kadai_Git/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) f213910] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+
+nagoya10@DESKTOP-2PLH85A MINGW64 ~/Desktop/kadai_Git/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 7df7169] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+
+nagoya10@DESKTOP-2PLH85A MINGW64 ~/Desktop/kadai_Git/git_challenge (main)
+$ git log
+commit 7df7169a73d12c0df7cdadf5c20161a46e131b68 (HEAD -> main)
+Author: Rino-F <pear.no.03@gmail.com>
+Date:   Thu Sep 21 16:35:43 2023 +0900
+
+    日本語訳を追記
+
+commit f2139102366388cef98cdc572e158e5e86f79a1f
+Author: Rino-F <pear.no.03@gmail.com>
+Date:   Thu Sep 21 13:14:19 2023 +0900
+:...skipping...
+commit 7df7169a73d12c0df7cdadf5c20161a46e131b68 (HEAD -> main)
+Author: Rino-F <pear.no.03@gmail.com>
+Date:   Thu Sep 21 16:35:43 2023 +0900
+
+    日本語訳を追記
+
+commit f2139102366388cef98cdc572e158e5e86f79a1f
+Author: Rino-F <pear.no.03@gmail.com>
+Date:   Thu Sep 21 13:14:19 2023 +0900
+
+    hello_world.txtを追加
+~
